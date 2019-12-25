@@ -1,0 +1,9 @@
+particle p;
+p.mass = $mass$30;
+p.mass.unit = "kg";
+p.shape = circle;
+p.shape.area = 12;
+p.shape.area.unit = "m2";
+p.motion = "y";
+p.motion.equation = 4*sin(2*t+Pi/2);
+p.start;
