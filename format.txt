@@ -6,4 +6,4 @@ p.shape.area = 12;
 p.shape.area.unit = "m2";
 p.w = sqrt($mass$/$k$5);
 p.motion.equation = 4*sin(w*#t+Pi/2);
-p.motion on #y = [loop];
+p.motion on #y = [loop$i$5];
